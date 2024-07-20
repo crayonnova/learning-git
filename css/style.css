@@ -1,0 +1,21 @@
+h5,h6 {
+    color: goldenrod;
+    background-color: #c60f0f;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    width: 100px;
+}
+
+/* nested selector */
+ol li { 
+    color: blue;
+}
+
+ul li {
+    color: red;
+}
