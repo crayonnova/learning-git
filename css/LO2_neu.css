@@ -1,0 +1,147 @@
+/* reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* reset */
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:beige; 
+    text-align: center;
+    padding-top: 10px; 
+    /* position: fixed; */
+}
+
+.text-left {
+    text-align: left;
+}
+.bg-color1 {
+    background-color:aquamarine;
+}
+
+.bg-color2 {
+    background-color: rgb(31, 113, 90);
+}
+
+.bg-color3 {
+    background-color: rgb(8, 229, 155);
+}
+
+.font-size1 {
+    font-size: larger;
+}
+
+.font-size2 {
+    font-size: large;
+}
+
+.font-size3 {
+    font-size: medium;
+}
+
+.font-size4 {
+    font-size: small;
+}
+
+.padding1 {
+    padding-bottom: 30px;
+}
+
+.padding-bottom10px {
+    padding-bottom: 10px;
+}
+
+.padding-top10px {
+    padding-top: 10px;
+}
+
+.padding-top-bottom10px {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.padding2 {
+    padding-bottom: 70px;
+}
+.float-left {
+    float:left ;
+}
+
+.float-right {
+    float:right;
+}
+
+.float {
+    float:inherit;
+}
+
+.width85 {
+    width: 85%;
+}
+
+.width15 {
+    width: 14%;
+}
+
+.margin10 {
+    margin-bottom: 10px;
+}
+
+.margin15 {
+    margin-bottom: 15px;
+}
+
+.height80 {
+    height: 75px;
+}
+
+.position {
+    position: fixed;
+}
+
+.container {
+    column-count: 2;
+}
+
+.flexbox {
+    display: flex;
+}
