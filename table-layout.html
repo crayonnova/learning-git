@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+
+    <style>
+        /* #main {
+            width: 100%;
+            border: 1px solid red;
+        } */
+
+        body {
+            background-color: rgb(239, 239, 239);
+        }
+
+        .parent {
+            width: 80%;
+            border: 1px solid red;
+            margin: 0 auto;
+            /* box-sizing: border-box; */
+        }
+
+        .child {
+            width: 33.33%;
+            border: 1px solid blue;
+            box-sizing: border-box;
+            float: left;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .clearfix {
+            overflow: auto;
+        }
+
+        .card {
+            border: 1px solid green;
+            border-radius: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent clearfix">
+        <div class="child">
+            <div class="card">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, tempora nemo sequi voluptates neque eveniet iusto iste atque mollitia magnam perferendis eos ex voluptas sapiente dolores enim nihil explicabo nulla!</p>
+            </div>
+        </div>
+        <div class="child">
+            <div class="card">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, tempora nemo sequi voluptates neque eveniet iusto iste atque mollitia magnam perferendis eos ex voluptas sapiente dolores enim nihil explicabo nulla!</p>
+            </div>
+        </div>
+        <div class="child">
+            <div class="card">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, tempora nemo sequi voluptates neque eveniet iusto iste atque mollitia magnam perferendis eos ex voluptas sapiente dolores enim nihil explicabo nulla!</p>
+            </div>
+        </div>
+    </div>
+    <!-- <table id="main">
+        <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+        </tr>
+    </table> -->
+</body>
+</html>
