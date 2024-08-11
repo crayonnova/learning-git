@@ -55,7 +55,7 @@ table {
 
 .wrapper {
 	display:grid;
-	grid-template-columns: repeat(3, 32%); /* minmax(auto, <flex>) */ ?
+	grid-template-columns: repeat(3, 32%); /* minmax(auto, <flex>) */ 
 	grid-gap: 2%;
 }
 
