@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        .wrapper {
+            display: flex;
+            width: 400px;
+            height: 100px;
+            border: 1px solid red;
+            flex-wrap: nowrap;
+            align-items: center; /* Y axis */
+            justify-content: center; /* X axis */
+        }
+
+        .wrapper .item {
+            flex-basis: 100px;
+            height: fit-content;
+            border: 1px dotted blue;
+        }
+
+        @media (max-width: 400px) {
+            .wrapper {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="item">Section one</div>
+        <div class="item">Section two</div>
+        <div class="item">Section three</div>
+    </div>
+</body>
+</html>
