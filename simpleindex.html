@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width, initial-scale=1.0">
     <title>Simple Home</title>
+    <link rel="stylesheet" href="style.css">
+
     <style>
         #header h1 {
             text-align: center;
@@ -39,11 +41,30 @@
         #footer {
             clear: both;
         }
+        
+        .hambuger {
+            padding: 10px;
+            display: inline-block;
+            background-color: aqua;
+        }
+
+        .hambuger div {
+            width: 20px;
+            height: 4px;
+            margin: 2px 0px;
+            background-color: black;
+        }
+
+        
     </style>
 </head>
 <body>
     <div id="header">
-        <h1>Title</h1>   
+        <div class="hambuger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </div>
    
     <div id="main">
@@ -52,10 +73,50 @@
             <a href="/learnhtml.html">Learn HTML</a>
             <a href="/aboutus.html">About us</a>     
         </div>
+        <style>
+            .cards {
+                width: 200px;
+                height: 200px;
+                border: 1px solid blue;
+            }
+            
+            .cards .card-item {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid red;
+                height: 100%;
+            }
 
+            .card-item .card-item-icon {
+                /* display: none; */
+                border: 1px solid green;
+            } 
+
+            .card-item .card-item-content {
+               text-align: center;
+               display: none;
+            }
+
+            .card-item:hover .card-item-content {
+                display: block;
+            }
+
+            .card-item:hover .card-item-icon {
+                display: none;
+            }
+           
+        </style>
         <div id="content">
-            <h2>Home</h2>
-            <p>This is home page.</p>
+            <div class="cards">
+                <div class="card-item">
+                    <div class="card-item-icon">ICON</div>
+                    <div class="card-item-content">
+                        <h3>Hello</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, libero!</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     

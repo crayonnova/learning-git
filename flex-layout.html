@@ -12,7 +12,7 @@
             width: 100%;
             /* height: 400px; */
             align-items: center;
-            flex-wrap: wrap;
+            /* flex-wrap: wrap; */
             justify-content: center;
             /* flex-wrap: nowrap; */
             gap: 10px;
@@ -20,17 +20,25 @@
         }
         
         .wrapper .item {
-            flex-basis: 400px;
+            flex-grow: 100%;
+            flex-basis: 300px;
+            /* width: 100%; */
+            /* flex: 1 1 auto; */
             /* min-width: 300px; */
             /* flex-basis: 1; */
             /* flex-shrink: 1; */
             /* width: 100px; */
-            height: fit-content;
+            /* height: fit-content; */
             border: 1px dotted green;
         }
         
+        .wrapper .item.first {
+            /* flex-grow: 2; */
+            /* flex-shrink: 1; */
+        }
+
         .wrapper .item.middle {
-            /* flex-grow: 1; */
+            /* flex-grow: 200px; */
             /* flex-shrink: 1; */
         }
 
@@ -53,17 +61,17 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="item">
+        <div class="item first">
             <h1>Section one</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, veritatis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, porro assumenda minima vitae odit eos eligendi maiores necessitatibus in, laudantium possimus deleniti temporibus animi, quos repudiandae facere nemo quasi similique et natus! Voluptates eius totam accusantium perspiciatis, nisi ipsam eligendi assumenda. Autem dolore quisquam dolor modi corporis expedita vel totam animi vero qui magni libero quidem eius, dolorum voluptate, asperiores nobis reiciendis odio enim mollitia quod id quasi corrupti. Possimus labore ducimus illo dolores voluptate quo odit cum nemo temporibus maxime aut dicta porro minima corrupti reprehenderit, obcaecati neque iste incidunt, harum numquam laboriosam perferendis molestiae alias. Asperiores, optio tenetur.</p>
         </div>
         <div class="item middle">
             <h1>Section two</h1>
-            <p>Lorem ipsum dolor orem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, veritatis. dolor sit amet consectetur adipisicing</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis fuga magni dignissimos voluptatibus eligendi voluptatum, ex veniam tempore, eum incidunt aperiam blanditiis temporibus provident earum nulla optio praesentium, aliquid error molestiae. Voluptates esse maxime a ab sed eveniet vitae cum? Ipsa, aliquam labore officia omnis necessitatibus ducimus dolores sit pariatur consequuntur natus, magni, ipsum nihil laborum! Fugit molestias aut optio dolorum nulla, corporis vitae doloremque? Dolorum perferendis cumque exercitationem, vitae corrupti animi cum magnam saepe voluptate. Veniam consectetur enim et mollitia eaque dicta ab temporibus numquam optio cum esse corrupti rem alias expedita, quos quibusdam accusamus sequi adipisci laboriosam culpa nesciunt. Rerum vel unde consequatur! Adipisci autem maxime deleniti ad nihil repellat odio aliquid. Deleniti vel quidem eos dolor ad dignissimos, fuga accusamus rerum animi quaerat quibusdam sed, sunt deserunt minus reiciendis temporibus? Velit sint distinctio adipisci voluptatibus amet minima accusantium labore aliquid id. Facilis, tenetur. Fuga et dignissimos nemo odio saepe, sint ea vitae voluptatibus distinctio, ducimus consequuntur nobis culpa debitis quod repellendus, corrupti soluta quia delectus dolores tempore consequatur quidem! Veniam laboriosam ex perferendis tempore voluptatibus suscipit temporibus quas odio adipisci repellat, vitae doloribus, fuga voluptatem ratione ipsa est quod expedita aut accusamus tenetur. Magni repudiandae accusantium quam!</p>
         </div>
         <div class="item last">
             <h1>Section three</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, consectetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet pariatur earum, doloremque in accusantium totam fugiat quis hic odio facilis deleniti nam unde impedit incidunt, vitae rerum. Rem nulla, debitis ratione vitae aspernatur repellat ea blanditiis, quia necessitatibus incidunt, beatae quod corrupti ad! Labore sit autem omnis molestias, accusamus a id, accusantium inventore iure quasi ducimus eaque natus debitis ea voluptates dicta. Rerum numquam quos accusantium doloremque quis reiciendis sed, commodi beatae quod animi excepturi praesentium molestias odio quae molestiae necessitatibus minima alias! Quos aliquid voluptatum excepturi placeat iste ducimus minus at. Iste harum similique, aperiam assumenda maxime voluptatum minima doloribus fuga optio nobis iure rerum quasi commodi asperiores dolores debitis, maiores officiis repellendus voluptates consequatur molestiae non iusto. Sequi dolorem at omnis ab consectetur dignissimos. Voluptatum praesentium repellendus non perferendis commodi, expedita minus soluta quam corrupti. Architecto saepe suscipit necessitatibus recusandae debitis quibusdam iure veritatis enim possimus sunt cumque error ipsam temporibus impedit, illum corrupti quis, neque mollitia numquam minus esse non reprehenderit delectus tenetur! Eligendi ullam provident saepe in molestias quasi dicta dignissimos officiis porro placeat. Ea commodi blanditiis voluptate sunt quod obcaecati velit quisquam, quia sequi laborum? Dolorum voluptates ducimus, dolore suscipit debitis vel eos nihil odit labore. In eos molestias doloribus animi aperiam consequatur qui, ex eveniet nihil facilis ipsum labore corrupti officiis praesentium, dolor ut debitis quae earum unde autem nisi sequi commodi, nostrum cupiditate? Neque, odio excepturi sequi vitae unde ea placeat magnam nisi cumque quae facere reiciendis dolorum. Voluptas officiis dolorem distinctio, blanditiis temporibus eaque veniam ut quas soluta repellat. Necessitatibus rem ullam tempore minus repellat ea esse, neque iste nihil illo voluptas! Repellendus facilis, accusantium ea quibusdam, distinctio excepturi ex sit repellat molestias maxime impedit tempora. Officiis molestias suscipit magnam, facere cupiditate voluptatibus deserunt, reiciendis veniam doloremque blanditiis libero accusamus, rerum repellat!</p>
         </div>
     </div>
 
@@ -73,11 +81,11 @@
         </div>
     </header>
     <script>
-        const a = function() {
-            this.style.fontSize = '50px';
-        }
-        document.querySelector(".parent").addEventListener('click', a);
-        document.querySelector(".wrapper").addEventListener('click', a);
+        // const a = function() {
+        //     this.style.fontSize = '50px';
+        // }
+        // document.querySelector(".parent").addEventListener('click', a);
+        // document.querySelector(".wrapper").addEventListener('click', a);
     </script>
 </body>
 </html>
